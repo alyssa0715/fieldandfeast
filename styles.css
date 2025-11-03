@@ -63,6 +63,47 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+header section {
+    background-color: var(--midnight-blue);
+}
+
+header img {
+    margin: 0 auto /*fix me*/
+}
+
+h1 {
+    color: var(--soft-white);
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 3em;
+}
+
+header p {
+    color: var(--soft-white);
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+}
+
+li {
+    color: var(--midnight-blue);
+    font-family:'Playfair Display';
+    font-weight: bold;
+    margin: 0 auto; /*fix me*/
+}
+
+h2 {
+    color: var(--midnight-blue);
+    font-family: 'Playfair Display';
+}
+
+#Welcome p {
+    color: var(--dark-charcoal);
+    font-family: 'Playfair Display';
+}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
